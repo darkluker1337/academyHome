@@ -1,0 +1,21 @@
+.hidden{
+    display: none;
+}
+li{
+    width: 100px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: red;
+}
+.show{
+    position: relative;
+    animation: showLeft 1s;
+    animation: showLeft 0.75s;
+}
+@keyframes showLeft {
+
+    from {left:-100%;}
+    
+    to {left:0;}
+    
+    }
